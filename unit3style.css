@@ -1,0 +1,17 @@
+body{
+	background: url(IMG_4098.jpg);
+	font-family: Fira Sans;
+	color: white
+
+
+
+
+}
+
+h1 {
+	text-align: center;
+	font-family: Didot;
+}
+
+#slogan {font-style: italic;}
+#list {font-size: bold}

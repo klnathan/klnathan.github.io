@@ -1,0 +1,35 @@
+body{
+	background: url(IMG_4098.jpg);
+	background-size: cover;
+
+	font-family: Fira Sans;
+	color: white;
+	text-align: center;
+	padding-bottom: 100px;}
+
+
+h1 {
+	font-family: Didot;
+	font-size: 100px;
+	background-color: rgba(0,0,0,.4);}
+
+a {text-decoration:none;
+	color:#98e6c2;}
+
+hr {width: 500px}
+
+ul {list-style-type: none;}
+
+
+#logo {text-align: center;}
+
+#slogan {font-style: italic;
+		text-align: center;}
+
+#para {background-color: rgba(0,0,0,.4);}
+
+#list {font-size: 50px;
+		}
+		
+
+
