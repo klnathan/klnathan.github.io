@@ -1,0 +1,39 @@
+
+@import url(http://fonts.googleapis.com/css?family=Quicksand|Rokkitt|Pathway+Gothic+One);
+
+
+
+body{margin: 2rem; font-family: 'Quicksand', sans-serif;}
+
+header {text-align: center;
+	margin-bottom: 100px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	}
+
+
+h1{font-family: 'Rokkitt', serif;}
+h2,h3,h4,h5,h6{font-family:'Pathway Gothic One', sans-serif;}
+h5{letter-spacing: .5px;}
+
+
+a {text-decoration: none; color: #940F35;}
+
+#about,#contact {margin: 0px 250px; border-left: 2px solid black; padding-left: 30px;}
+
+
+menuitem {padding: 3.5rem;}
+menu {min-width: 100%; margin-bottom: 50px; background-color: #eee;}
+
+
+img {float: center;}
+
+.article {word-wrap:normal;}
+img.article {width: 100%; height: auto;}
+
+img.article:hover {opacity: 0.4; height: auto; }
+
+img{
+	max-width:45%;
+	height:auto;
+	}
