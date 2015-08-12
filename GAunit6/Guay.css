@@ -1,0 +1,39 @@
+@import url(http://fonts.googleapis.com/css?family=Fira+Sans:300);
+
+
+
+body{margin: 2rem; font-family: 'Fira Sans', serif;}
+
+header {text-align: center;
+	margin-bottom: 100px;
+	padding-top: 15px;
+	padding-bottom: 5px;
+	}
+
+
+h1,h2{font-family: Didot, serif;}
+h3,h4,h5,h6{font-family:'Fira Sans', sans-serif;}
+h5{letter-spacing: .5px;}
+
+
+a {text-decoration: none; color: #940F35;}
+
+#contact {margin: 0px 250px; border-left: 2px solid black; padding-left: 30px;}
+
+#about {width: 60%; display: inline-block; float: right; border-left: 2px solid black; padding-left: 30px;}
+aside { width: 200px; padding: 20px; float: right;}
+#wrapper { display: inline-block;}
+
+menuitem {padding: 3.5rem;}
+menu {min-width: 100%; margin-bottom: 50px; background-color: #eee;}
+
+td{ padding-top: 50px;}
+
+img {float: center;}
+
+.article {word-wrap:normal;}
+img.article {width: 100%; height: auto;}
+
+img.article:hover {opacity: 0.4; height: auto; }
+
+div.article {display: inline;}
