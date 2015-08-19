@@ -1,0 +1,41 @@
+@font-face {font-family: BukhariScript; src: url(Bukhari_Script.otf);}
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+
+h2 {font-family: 'BukhariScript', cursive; color: #3f494b;}
+h1 {font-family: 'Fjalla One', sans-serif; color: #1f213d;}
+
+
+header {text-align: center; margin: 0px}
+#favicon_menu {
+	disply: inline-block; 
+	float: right;}
+
+
+
+
+menuitem {
+	display: block; 
+	font-family: 'Fjalla One'; 
+	text-align: center;
+	padding: 5px;
+	margin: 43px;
+	margin-bottom: 60px;
+	margin-top: 50px;
+}
+
+menu {padding: 12px;}
+
+menuitem:hover{opacity: 0.6;}
+
+
+a {
+	text-decoration: none; 
+	color: white; }
+
+#menu {background: url(menubackground.jpg); background-size: 100%; background-repeat: none;}
+
+ ul {list-style-type: none; text-align: center; margin: 0 0 }
+.img {width: 100%; float: left; margin: 50px 0;}
+
+#resume {width: 100%;}
+
