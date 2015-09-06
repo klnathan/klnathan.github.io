@@ -1,0 +1,80 @@
+@font-face {font-family: BukhariScript; src: url(Bukhari_Script.otf);}
+@import url(http://fonts.googleapis.com/css?family=Fjalla+One);
+
+h2 {font-family: 'BukhariScript', cursive; color: #3f494b;}
+h1 {font-family: 'Fjalla One', sans-serif; color: #1f213d;}
+
+
+header {text-align: center; margin: 0px}
+
+#menu-toggle {
+  display: none; /* hide the checkbox */
+}
+#menu {
+  display: none;
+}
+#menu-toggle:checked + #menu {
+  display: block;
+  float: right;
+  padding: 10px;
+  border: solid #f1e4ec;
+  margin: 0 10px;
+  background-color: #fefbfc;
+  font-family: 'Fjalla One', sans-serif; 
+  font-color: #c2c2c2;
+
+}
+
+#favicon_menu {
+	disply: inline-block; 
+	float: right;}
+
+
+menu {text-align: center;}
+
+menuitem {
+	font-family: 'Fjalla One'; 
+	display: line-block;
+	text-align: center;
+	padding: 20px;
+}
+
+menuitem:hover{opacity: 0.6;}
+
+@media (max-width:600px) {
+menuitem.home { 
+display: block; 
+				text-align: center;
+				padding: 5px;
+				margin: 43px;
+				margin-bottom: 60px;
+				margin-top: 50px;
+			}
+}
+
+
+a {
+	text-decoration: none; 
+	color: white; }
+
+a.toggle {color: black;}
+
+#menus {background: url(menubackground.jpg); background-size: 100%; background-repeat: none;}
+
+
+
+ul {list-style-type: none; text-align: center; margin: 0 0 }
+.img {width: 30%; height: auto; display: inline; float: right; margin: 1%;}
+
+@media (max-width: 800px) { 
+	.img {width: 47%; height: auto; display: inline; float: right; margin: 1%;}
+}
+
+@media (max-width: 500px) {
+ 	ul {list-style-type: none; text-align: center; margin: 0 0 }
+
+	.img {width: 100%; float: left; margin: 50px 0;}
+}
+
+#resume {width: 100%;}
+
