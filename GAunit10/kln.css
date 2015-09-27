@@ -64,7 +64,7 @@ ul {list-style-type: none; text-align: center; margin: 0 0 }
 #column1 {width: 45%; float: left;  margin-left: 3% ; padding-left: 0%; }
 #column2 {width: 45%; float: right; margin-right: 4%; padding-left: 0%; }
 
-
+#hor{display: block;}
 
 
 @media (max-width: 800px) { 
