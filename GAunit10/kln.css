@@ -72,6 +72,7 @@ ul {list-style-type: none; text-align: center; margin: 0 0 }
     #column1 {width: 100%; float: center;  margin: 0 0; padding-left: 0; padding-right: 50px; }
     #column2 {width: 100%; float: center; margin: 0 0; padding-left: 0;
     margin: 1%;}
+    #hor {width: 90%; float: center;}
     
 }
 
