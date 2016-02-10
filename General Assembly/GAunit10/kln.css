@@ -7,12 +7,10 @@ h1 {font-family: 'Fjalla One', sans-serif; color: #1f213d;}
 
 header {text-align: center; margin: 0px}
 
-#menu-toggle {
-  display: none; /* hide the checkbox */
-}
-#menu {
-  display: none;
-}
+#menu-toggle { display: none;} /* hides the checkbox */ 
+
+#menu { display: none;} /*hides menu items*/
+
 #menu-toggle:checked + #menu {
   display: block;
   float: right;
@@ -22,8 +20,7 @@ header {text-align: center; margin: 0px}
   background-color: #fefbfc;
   font-family: 'Fjalla One', sans-serif; 
   font-color: #c2c2c2;
-
-}
+} /*formating for when menu is "checked" or clicked*/
 
 #favicon_menu {
 	disply: inline-block; 

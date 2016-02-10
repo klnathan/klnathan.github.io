@@ -2,15 +2,17 @@
 
 body{
 
-background: url(IMG_4098.jpg), no-repeat;
-	background-size: 100%;
-
 	font-family: 'Quicksand', sans-serif;
 	color: white;
 	text-align: center;
 	padding-bottom: 100px;
 background-color: rgba(0,0,0,.4);}
 
+header{background: url(IMG_4098.jpg);
+	background-size: 100%;
+	background-repeat: none;
+	padding-bottom: 4em;
+	padding-top: 5em;}
 
 h1 {
 	font-family: Didot, serif;
